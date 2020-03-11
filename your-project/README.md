@@ -37,8 +37,7 @@ Describe your full process of data wrangling and cleaning. Document why you chos
 * If you used Machine Learning in your final project, describe your feature selection process.
 
 ## Model Training and Evaluation
-*Include this section only if you chose to include ML in your project.*
-* For the 
+
 
 ## Conclusion
 * Summarize your results. What do they mean?
