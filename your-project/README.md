@@ -1,13 +1,13 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# Analysis of Brainwaves behaviour during Mindful Meditation
+*[Rebecca Estiarte]*
 
-*[Your Cohort, Campus & Date]*
+*[Data Analysis, Barcelona & 11/03/2020]*
 
 ## Content
-- [Project Description](#project-description)
-- [Hypotheses / Questions](#hypotheses-questions)
+- [Project Snapshot](#project-snapshot)
+- [Main Hypotheses](#Main Hypotesis)
 - [Dataset](#dataset)
 - [Cleaning](#cleaning)
 - [Analysis](#analysis)
@@ -18,20 +18,14 @@
 - [Organization](#organization)
 - [Links](#links)
 
-## Project Description
-Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show.
+## Project Snapshot
+Analysis of Mindful Meditation Practice impact over electroencephalogram (EEG) using brainwaves data acquired through headband sensor.
 
-## Hypotheses / Questions
-* What data/business/research/personal question you would like to answer?
-* What is the context for the question and the possible scientific or business application?
-* What are the hypotheses you would like to test in order to answer your question?  
-Frame your hypothesis with statistical/data languages (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
+## Main Hypotesis
+The hipotesis is that the practice of Mindful Meditation affect the brainwaves activity even for inexperienced meditators. I also want to prove that the change in brainwaved frequency pattern experienced in meditation is beneficial for the practicioner.
 
 ## Dataset
-* Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
-* Did you build your own datset? If so, did you use an API or a web scraper? PRovide the relevant scripts in your repo.
-* For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
-* If the question cannot be answered with the available data, why not? What data would you need to answer it better?
+I collected all the data used in this project using the Muse wearable brain sensing headband, manufactured by InteraXon. I was able to measure the brain activity of a sample group via 4 electroencephalography (EEG) sensors placed on the headband. As Interaxon has retired from the market his Software Developer Kit (SDK), I used a third party app named "Mind Monitor" to retrieve the data. The app is able to process the EEG data and output a single combined average value for the five absolute brain wave values. It can output the data into Excel compatible CSV (Comma Separated Values) files that I directly uploaded into a Google Drive folder from my smartphone.
 
 ## Cleaning
 Describe your full process of data wrangling and cleaning. Document why you chose to fill missing values, extract outliers, or create the variables you did as well as your reasoning behind the process.
@@ -44,7 +38,7 @@ Describe your full process of data wrangling and cleaning. Document why you chos
 
 ## Model Training and Evaluation
 *Include this section only if you chose to include ML in your project.*
-* Describe how you trained your model, the results you obtained, and how you evaluated those results.
+* For the 
 
 ## Conclusion
 * Summarize your results. What do they mean?
