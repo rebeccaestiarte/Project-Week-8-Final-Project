@@ -7,7 +7,7 @@
 
 ## Content
 - [Project Snapshot](#project-snapshot)
-- [Main Hypotheses](#Main Hypotesis)
+- [Main Hypothesis](#Main Hypotesis)
 - [Dataset](#dataset)
 - [Cleaning](#cleaning)
 - [Statistical Analysis](#analysis)
@@ -48,10 +48,10 @@ The second part of my project consisted in building a Machine Learning Model and
 * Gamma waves are not proved to behave differently during meditation for amateur practioners.
 
 ## Future Work
-Due to time constrains, I was unable to collect enough data to make further observation. Also, I was unable to get a sample which size and diversity was high enough to minimize bias. Also, a greater dataset would allow me to achieve higher accuracy on the machine learning model.
+Due to time constrains, I was unable to collect enough data to make further observation. Also, I was unable to get a sample which size and diversity was high enough to minimize bias. Also, a greater dataset would allow me to achieve higher accuracy and reduce the risk of overfitting on the machine learning model.
 
 ## Workflow
-I started the project by realizing the experiment, which I describe in detail on the Main Notebook, with the participants. While I was collecting the data, I started building the functions that will allow me to automatize the import and cleaning of the dataset, as well as the graphs I used to analyse the data. This way, I could update my model with each new session (dataset) imported. It was a necessary work to optimize time, as I had to conduct the experiments in different days and times to reduce the bias. I did not make any observations untill I finished collecting the data. Once the experiments were done, I could analyse the results and make my observations. I hypotesis tested the observations and detailed my conclusion. After that, I began reprocessing the data to fit into the machine learning algohritm. I conducted many modifications to the train data untill I was satisfied with the model performance.
+I started the project by realizing the experiment with the participants. The details of the experiment are described on the Main Notebook. While I was collecting the data, I started building the functions that will allow me to automatize the import and cleaning of the dataset, as well as the graphs I used to analyse the data. This way, I could update my model with each new session (dataset) imported. It was a necessary work to optimize time, as I had to conduct the experiments in different days and times to reduce the bias. I did not make any observations untill I finished collecting the data. Once the experiments were done, I could analyse the results and make my observations. I hypotesis tested the observations and detailed my conclusion. After that, I began reprocessing the data to fit into the machine learning algohritm. I conducted many modifications to the train data untill I was satisfied with the model performance.
 
 ## Links
 
